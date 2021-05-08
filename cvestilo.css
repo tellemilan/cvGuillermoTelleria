@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1
+{
+    color: teal;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+}
+
+body
+{
+    background-image: url(presence-ii.png);
+}
+nav
+{
+    margin: auto;
+    width: 500px;
+}
+
+ul,ol 
+{
+    list-style: none;
+}
+
+.menu li a
+{
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.menu li a:hover 
+{
+    background-color: grey;
+}
+
+.sub
+{
+    float: left;
+}
+.menu li ul
+{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover >ul 
+{
+    display: block;
+}
+.menu li ul li 
+{
+    position:relative ;
+}
+
+.menu li ul li ul 
+{
+    right: -140px;
+    top:0px
+}
+
+form
+{
+  margin-top: 100px;   
+  
+}
