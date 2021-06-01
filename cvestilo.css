@@ -2,9 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
+header
+{
+    background-color: black;    
+}
 h1
 {
-    color: teal;
+    color:white;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 55px;
@@ -12,27 +16,54 @@ h1
 
 body
 {
-    background-image: url(presence-ii.png);
+    background: linear-gradient(135deg,rgb(123, 60, 165),rgb(44, 66, 66),white);
 }
-nav
+#foto
 {
-    margin: auto;
-    width: 500px;
+    margin-top: 100px;
+    background-color: black;
+    
+
+} 
+#est
+{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55x;
 }
+#descripcion
+{
+    color:rgb(123, 60, 165);
+    text-align: center;
+}
+
+#perfil
+{
+    border-radius: 50px;
+}
+ nav
+{
+
+    margin-left:40% ;
+    width:60% ; 
+    background-color: black;
+}
+
 
 ul,ol 
 {
     list-style: none;
-}
+} 
 
 .menu li a
 {
-    background-color: teal;
+    background-color: black;
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 15px; 
     display: block;
 }
+
 .menu li a:hover 
 {
     background-color: grey;
@@ -41,12 +72,16 @@ ul,ol
 .sub
 {
     float: left;
+    
+    
 }
+
 .menu li ul
 {
     display:none;
     position: absolute;
     min-width: 140px;
+    margin-left:0px;
 }
 
 .menu li:hover >ul 
@@ -62,10 +97,132 @@ ul,ol
 {
     right: -140px;
     top:0px
+} 
+
+.formulario
+{
+  margin-top: 10%; 
+  margin-left: 40%;  
+  background-color: black;
+  padding: 15px ;
+  width: 25%;
+  margin-bottom: 3%;
+  box-shadow: 30px 30px 30px violet;
+  
+}
+.control
+{
+    width: 100%;
 }
 
-form
+.cubo
 {
-  margin-top: 100px;   
-  
+    margin-top: 100px;
+}
+
+.cantv 
+{
+    background-color: black;
+    color: white;
+}
+
+.cable
+{
+    background-color: black;
+    color: white;
+}
+
+.santader
+{
+    background-color:black ;
+    color: white;
+}
+
+.estrellas
+{
+    margin-left: 0px;
+    color: black;
+    font-size: 2.5vw;
+}
+.logos
+{
+    margin-left: 25%;
+    margin-top:5% ;
+    
+}
+.logos img
+{
+    padding: 20x;
+}
+.leyenda
+{
+    margin-left: 25%;
+    background-color:black;
+    width: 18%;
+    color:white;
+    border-color:white;
+    border-style: double;
+    text-align: center;
+}#cole
+{
+    background-color: rgb(150, 4, 247);
+}
+.estu
+{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+.a
+{
+    font-weight: bold;
+}
+#mi
+{
+    background-color: black;
+    margin-top: 50px;
+}
+#yo
+{
+    color: white;
+    text-align: center;
+}
+
+.vid
+{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) 
+{
+   
+     [class*="videos"]
+    {
+        width: 47%;
+    }
+   
+    [class*="menu"]
+    {
+        margin-left:25%;
+    }
+    [class="formulario"]
+    {
+        font-size: 1.9vw;
+        width: 40%;
+        margin-left: 30%;
+    }
+    [class="titfor"]
+    {
+        font-size: 2.9vw;
+    }
+    [class="leyenda"]
+    {
+        font-size: 1px;
+        width: 55%;
+        margin-left: 7%;
+    }
+
+
 }
